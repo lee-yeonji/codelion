@@ -13,7 +13,7 @@
 <summary>python 심화 강의기록</summary>
 <div markdown="1">
 
-<img width=100% src=""/>
+<img width=100% src="https://user-images.githubusercontent.com/101976270/168380516-68368ed5-e7f1-4d21-a55d-176bb16c64f2.PNG"/>
 
 </div>
 </details>
