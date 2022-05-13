@@ -16,9 +16,9 @@ data = json.loads(result.text)
 # 지역 : name
 print(data["name"],"의 날씨입니다.")
 # 경도 : coord - lon
-print("경도는 ",data["coord"]["lon"],"입니다")
+print("경도 ",data["coord"]["lon"],"입니다")
 # 위도 : coord - lat
-print("위도는 ",data["coord"]["lat"],"입니다")
+print("위도 ",data["coord"]["lat"],"입니다")
 # 자세한 날씨 : weather - description
 print("날씨는 ",data["weather"][0]["description"],"입니다.")
 # 현재 온도 : main - temp
