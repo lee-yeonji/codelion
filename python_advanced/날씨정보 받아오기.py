@@ -8,7 +8,7 @@ lang = "kr"
 api = f"""http://api.openweathermap.org/data/2.5/\
 weather?q={city}&appid={apikey}&lang={lang}&units=metric"""
 
-# result = requests.get(api)
+result = requests.get(api)
 # print(result.text)
 
 data = json.loads(result.text)
